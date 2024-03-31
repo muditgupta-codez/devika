@@ -19,11 +19,7 @@ from src.llm import LLM
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")
 log.disabled = True
-CORS(app, origins=["http://localhost:3000"], resource={
-    r"/*":{
-        "origins":"*"
-    }
-})
+CORS(app)
 
 logger = Logger()
 
@@ -232,4 +228,4 @@ def get_settings():
 if __name__ == "__main__":
     logger.info("Booting up... This may take a few seconds")
     init_devika()
-    app.run(debug=False, port=1337, host="0.0.0.0")
+    app.run(debug=False, port=80, host="0.0.0.0")

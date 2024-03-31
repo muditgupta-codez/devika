@@ -11,13 +11,13 @@ const getApiBaseUrl = () => {
     // Client-side code
     const host = window.location.hostname;
     if (host === 'localhost' || host === '127.0.0.1') {
-      return 'http://127.0.0.1:1337';
+      return 'http://devika-ai.api.webspeed.online';
     } else {
-      return `http://${host}:1337`;
+      return `http://devika-ai.api.webspeed.online`;
     }
   } else {
     // Server-side code (Node.js)
-    return 'http://127.0.0.1:1337';
+    return 'http://devika-ai.api.webspeed.online';
   }
 };
 
