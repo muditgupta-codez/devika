@@ -1,0 +1,27 @@
+[STORAGE]
+LOGS_DIR = "logs"
+PDFS_DIR = "pdfs"
+PROJECTS_DIR = "projects"
+REPOS_DIR = "repos"
+SCREENSHOTS_DIR = "screenshots"
+SQLITE_DB = "db/devika.db"
+WEB_SEARCH = "ddgs"
+
+[API_KEYS]
+BING = "8689ef33261742a490051b83c0dadd1f"
+CLAUDE = "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"
+GEMINI = "AIzaSyBdPBMzFPA5oiK2WPa0DlUvIg-8iQLTECE"
+GOOGLE_SEARCH = "AIzaSyDHoSylWTo7kIcDYao9NT3wLAndWihtoPY"
+GOOGLE_SEARCH_ENGINE_ID = "c5d09f3138b954cd0"
+GROQ = "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"
+NETLIFY = "nfp_oYJwANGN2DP63C7dy9XXSkWwYaBpcGat9e9c"
+OPENAI = "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"
+
+[API_ENDPOINTS]
+BING = "https://api.bing.microsoft.com/"
+GOOGLE_SEARCH = "https://www.googleapis.com/customsearch/v1"
+OLLAMA = "http://127.0.0.1:11434"
+
+[LOGGING]
+LOG_PROMPTS = "false"
+LOG_REST_API = "true"
