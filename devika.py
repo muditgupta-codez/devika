@@ -19,7 +19,7 @@ from src.llm import LLM
 app = Flask(__name__)
 log = logging.getLogger("werkzeug")
 log.disabled = True
-CORS(app)
+CORS(app, origins=["http://localhost:3000/", "https://example.com"])
 
 logger = Logger()
 
